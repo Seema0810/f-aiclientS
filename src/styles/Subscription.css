@@ -1,0 +1,16 @@
+.Subscription .MuiFormControlLabel-root {
+  font-size: 0.875rem !important; /* Decrease the font-size of the label */
+  /* margin-left: 1.5rem !important; */
+}
+
+.Subscription .MuiCheckbox-root {
+  /* font-weight: 200; */
+  font-size: 0.875rem;
+ 
+  
+}
+
+.Subscription .MuiFormControlLabel-label {
+  font-size: 0.75rem !important; /* Decrease the font-size of the label text */
+  font-weight: 400 !important; /* Adjust the font-weight as needed */
+}

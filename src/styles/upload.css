@@ -1,0 +1,87 @@
+.uploadCategory {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.uploadCategory .category1 {
+  margin: 0 10px;
+}
+
+.uploadCategory .category1 span:nth-child(2) {
+  font-size: 1.2rem;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 0;
+}
+
+.uploadCategory .category1 span:nth-child(2):hover {
+  border-bottom: 5px solid rgb(230, 106, 160);
+}
+
+.uploadedList {
+  min-height: 80vh;
+  width: 100%;
+  /* border-radius: 10px; */
+  /* margin: 10px auto; */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  background-color: rgb(242, 242, 242);
+}
+
+.uploadedNameSection {
+  background-color: white;
+  /* height: 75vh; */
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.uploadedNameSectionList {
+  background-color: white;
+  height: 75vh;
+  /* padding: 30px 10px; */
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.uploadCatNames {
+  height: 20px;
+  /* height: fit-content; */
+  background-color: #da9c9c;
+  min-width: 5rem;
+  margin: 5px 2px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.uploadCatNames:hover {
+  background-color: rgb(233, 133, 129);
+}
+
+.parentUploadDiv {
+  height: fit-content;
+}
+
+.uploadCatNames span {
+  font-size: 1.3rem;
+  font-weight: 400;
+  white-space: nowrap;
+}
+
+.invoicesHeading h4 {
+  color: grey;
+  text-transform: uppercase;
+  font-size: medium;
+}

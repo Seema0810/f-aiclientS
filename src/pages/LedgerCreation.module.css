@@ -1,0 +1,206 @@
+/* body,
+div,
+form,
+input,
+select,
+textarea,
+label,
+p {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 22px;
+} */
+h1 {
+  position: absolute;
+  margin: 0;
+  font-size: 40px;
+  color: #fff;
+  z-index: 2;
+  line-height: 83px;
+}
+textarea {
+  width: calc(100% - 12px);
+  padding: 5px;
+}
+.testbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  padding: 20px;
+}
+.form {
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0 0 8px #669999;
+}
+.banner {
+  position: relative;
+  height: 300px;
+  background: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUSEhgSFRUSHBMYFBgUExMYFRwXFRcXFxUYGBcXFRcYHSggGBolHRgXITEhJSkrLi4uFx80OTQtOCgvLy8BCgoKDg0OGhAQGy8lICUvLy8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAJYAxAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAADAAECBQYAB//EAEQQAAEDAwIDBQYEBAQHAAAAAAECAwQABRESIQYTMUEiUWEIFDJxgZEUMqHRM2JyobHBJEKTssHSFmNyotL/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAoEQACAgEDAgUDBAAAAAAAAAAECAwQRAAUhMVEFUWGBBZGhscEUIqHwBf/aAAwDAQACEQMRAD8Anv7QtxTqxt9K2FhYVcBcKIsDgMRwPrXaKFj9a4gvtiWc2Wi1jv5N9DDLLq31a0/KeHWGKGxMga9HZKdOpZQKxlHMVPoK4tFYDc7eM7lVEYtLxw9p2XsV2JmGKJe9qBkZzVzRN0MpAA9aUuJdnr6Wt0U6T4E0AWscfCul3uBk+xrZ8Lm8QCMVTIBNWg05SCCQD86zqKcT6GpbiSAQrE+1RkmnWkcAEnxURPckHavRcW4oSLc1CgNAAD7CtMnNDS2QwRj2qzbjHNZ4gHwPWrX5KU9hWBVQsQD9v8A9K7yKuyxDzVLgMKY7EHFK/Wk0t6ur+tpoYKgTqg4FeSp3Kke1WtsaNC0TzTI1iE2kYzGjjqKutFrSm2xVYxWlSpSG0bUTmtZnQ3T8yArvW/iuQW41uFrSpOomWlx0Uhdo4Pem+gIGSrsKRS4yR1EYyOhFNTWhRjQSFQAlJxwKq2zq9qR3GQBsAEmjj1oUo8G4UCnviNk8gVEgEMj9am48tTkeAcyVY5pTg0KtqXQU/HA5ppN8HeCtSMrT0oYI71ZgAc8VJOfSpahyzKCCCT1pCxqZxRRRUd4UBRRRQFcTzRRUgIyCKzFN3FSWigEZpSwFiidWTRQAtsUhBm9KoWQx0zSvUUoUUlC9KlCtLQR1xSG5rNaRzTS5p2hSnSoqVcTH8qvLUpmGkzGaKZjGFOzg9q7G8SqfLIwq6q21mBcXucUUVQpKhq9KgCnNGpgKTtTIzSjNFtUCCkpxSd61GYQemT2rGU4PTnAqlNIUB1yOlNGKM0mJtQKJ1FRxSjlJoUhWitKwFFFFAhRRRQAUUUUAFFFFAH//2Q==)
+    no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner::after {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+input,
+select,
+textarea {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.input {
+  width: calc(100% - 10px);
+  padding: 5px;
+}
+input[type="date"] {
+  padding: 4px 5px;
+}
+.textarea {
+  width: calc(100% - 12px);
+  padding: 5px;
+}
+.item:hover p,
+.item:hover i,
+.question:hover p,
+.question label:hover,
+input:hover::placeholder {
+  color: #669999;
+}
+.item input:hover,
+.item select:hover,
+.item textarea:hover {
+  border: 1px solid transparent;
+  box-shadow: 0 0 3px 0 #669999;
+  color: #669999;
+}
+.item {
+  position: relative;
+  margin: 10px 0;
+}
+.item span {
+  color: red;
+}
+.input[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+.item i,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute;
+  font-size: 20px;
+  color: #a3c2c2;
+}
+.item i {
+  right: 1%;
+  top: 30px;
+  z-index: 1;
+}
+.input[type="radio"],
+.input[type="checkbox"] {
+  display: none;
+}
+.label.radio {
+  position: relative;
+  display: inline-block;
+  margin: 5px 20px 15px 0;
+  cursor: pointer;
+}
+.question span {
+  margin-left: 30px;
+}
+.question-answer label {
+  display: block;
+}
+.label.radio:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+.input[type="radio"]:checked + label:before,
+.label.radio:hover:before {
+  border: 2px solid #669999;
+}
+.label.radio:after {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 8px;
+  height: 4px;
+  border: 3px solid #669999;
+  border-top: none;
+  border-right: none;
+  transform: rotate(-45deg);
+  opacity: 0;
+}
+.input[type="radio"]:checked + label:after {
+  opacity: 1;
+}
+.flax {
+  display: flex;
+  justify-content: space-around;
+}
+.btn-block {
+  margin-top: 10px;
+  text-align: center;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.buttonContainer button {
+  margin: 0 1cm;
+}
+.buttonCreation {
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #da9c9c;
+  font-size: 16px;
+  color: #fff;
+  cursor: pointer;
+}
+.buttonCreation:hover {
+  background-color: rgb(233, 133, 129);
+}
+@media (min-width: 568px) {
+  .name-item,
+  .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .name-item input,
+  .name-item div {
+    width: calc(50% - 20px);
+  }
+  .name-item div input {
+    width: 97%;
+  }
+  .name-item div label {
+    display: block;
+    padding-bottom: 5px;
+  }
+}

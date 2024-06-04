@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+body {  
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-journal {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 95%;  
+  box-sizing: border-box;
+}
+
+.h2-journal {
+  text-align:left;  
+  font-family: "Nunito", sans-serif !important;
+  color:#ef3737 !important;
+  font-weight:900;
+}
+
+.journal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.journal-label {  
+  font-weight: bold;
+  font-size: 0.9rem;
+  font-family: "Nunito", sans-serif !important;
+}
+.menuitem-font{
+  font-family: "Nunito", sans-serif !important;
+}
+select,
+input[type="date"],
+input[type="text"],
+input[type="number"] {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 13px;
+  height:25px;  
+  width: 150px;
+  margin-bottom: 11px !important;
+}
+.journal-button{
+  /* background-color: #ddd; */
+  color:#002379;
+  font-family: "Nunito", sans-serif !important;
+  font-weight: 700;
+  border-radius: 10px !important;
+}
+.journal-button:hover{
+  background-color: #FF9F66 !important;
+}
+.ledger-table {
+  width: 650px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  border:1px solid rgb(181, 55, 55);
+}
+
+.ledger-table th,
+.ledger-table td {
+  border: 1px solid #ddd;
+  padding: 5px;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.add-ledger-btn {
+  background: #FF9F66;
+  background-image: -webkit-linear-gradient(top, #FF9F66, #FFFAE6);
+  background-image: -moz-linear-gradient(top, #FF9F66, #FFFAE6);
+  background-image: -ms-linear-gradient(top, #FF9F66, #FFFAE6);
+  background-image: -o-linear-gradient(top, #FF9F66, #FFFAE6);
+  background-image: linear-gradient(to bottom, #FF9F66, #FFFAE6);
+  -webkit-border-radius: 58;
+  -moz-border-radius: 58;
+  border-radius: 18px;
+  font-family: "Nunito", sans-serif !important;
+  color: #002379;
+  font-size: 17px;
+  width:90px;
+  height:30px;
+  border: none;
+  font-weight: 900;
+  /* padding-top:3px; */
+  padding-inline: 5px;
+  text-decoration: none;
+}
+
+.add-ledger-btn:hover {
+  background: #EADBC8;
+  text-decoration: none;
+}
+
+.delete-ledger-btn {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding-block:5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: o.8rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-ledger-btn:hover {
+  background-color: #d32f2f;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}

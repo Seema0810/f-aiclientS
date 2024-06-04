@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+.butn {
+    -webkit-border-radius: 24;
+    -moz-border-radius: 24;
+    border-radius: 24px;
+    /* font-family: Arial; */
+    color: #1a131a;
+    font-size: 14px;
+    background: rgb(253, 98, 98);
+    /* padding: 10px 20px 10px 20px; */
+    border: solid #c7b5b5 2px;
+    text-decoration: none;
+  }
+  .delete-btn{
+    font-size: 0.8rem;
+  }
+  .delete-btn:hover{
+    border: 2px solid rgb(231, 157, 157) !important;
+    background-color: #f5e8e8 !important;
+  }
+  .account-profile {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+  }
+  .tab-font{
+    font-family: "Nunito", sans-serif !important;
+    text-transform: capitalize !important;
+    font-weight: bolder !important;
+  }
+  .css-ahj2mt-MuiTypography-root{
+    font-family: "Nunito", sans-serif !important;
+    font-size:0.9rem !important;
+  }
+  .profile-font-style{
+    font-family: "Nunito", sans-serif !important;
+  }
+  .form-font-style{
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.9rem !important;
+    /* margin-left: -1px !important; */
+  }
+  .input-field-style{
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.9rem !important;
+  }
+  .butn:hover {
+    background: #ebb0b3;
+    text-decoration: none;
+  }
+
+  .form-design{
+    width:90%;
+  }

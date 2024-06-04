@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+.drop-label {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px dotted blue;
+}
+
+.file-input {
+  display: none;
+}
+
+.btn-outline-red {
+  border-color: red !important;
+  color: inherit !important; /* This will keep the original text color */
+}
+
+/* dragger file display */
+.dragger-container {
+  width: 150px;
+  height: 300px;
+  overflow: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  display: flex;
+  /* flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: center; */
+}
+
+.btn-dragger {
+  width: 85px;
+  height: 35px;
+  background-color: #da9c9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.position-top-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.btn-dragger:hover,
+.btn-dragger:focus,
+.btn-dragger:active {
+  background-color: rgb(233, 133, 129);
+}
+
+/* for data-grid-library*/
+.react-grid-Grid {
+  border: 1px solid #ddd;
+}
+
+.react-grid-Header {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.react-grid-Row:hover {
+  background-color: #eee;
+}
+
+@media (min-width: 768px) {
+  .dragger-container {
+    width: 600px;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-scrollbar-track {
+  background: #da9c9c;
+}
+::-webkit-scrollbar-thumb {
+  background: #da9c9c;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #da9c9c;
+}

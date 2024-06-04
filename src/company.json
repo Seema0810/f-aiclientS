@@ -1,0 +1,129 @@
+{
+  "companies": [
+    {
+      "name": "Microsoft",
+      "countries": [
+        {
+          "name": "India",
+          "cities": [
+            {
+              "name": "Bangalore",
+              "offices": [
+                {
+                  "name": "Silicon Valley"
+                },
+                {
+                  "name": "Innovation Hub"
+                }
+              ]
+            },
+            {
+              "name": "Mumbai",
+              "offices": [
+                {
+                  "name": "Tech Park"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "China",
+          "cities": [
+            {
+              "name": "Beijing",
+              "offices": [
+                {
+                  "name": "Dragon Tower"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "United States",
+          "cities": [
+            {
+              "name": "Redmond",
+              "offices": [
+                {
+                  "name": "Microsoft Campus"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "United Kingdom",
+          "cities": [
+            {
+              "name": "London",
+              "offices": [
+                {
+                  "name": "Tech Hub"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Google",
+      "countries": [
+        {
+          "name": "Germany",
+          "cities": [
+            {
+              "name": "Berlin",
+              "offices": [
+                {
+                  "name": "Googleplex"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Australia",
+          "cities": [
+            {
+              "name": "Sydney",
+              "offices": [
+                {
+                  "name": "Tech Center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Brazil",
+          "cities": [
+            {
+              "name": "Sao Paulo",
+              "offices": [
+                {
+                  "name": "Innovation Lab"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Canada",
+          "cities": [
+            {
+              "name": "Toronto",
+              "offices": [
+                {
+                  "name": "Digital Hub"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

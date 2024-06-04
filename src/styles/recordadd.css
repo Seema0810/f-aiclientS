@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+.menuitem-design{
+    font-size: small !important;
+}
+.text-desc{
+    font-size: small !important;
+    /* padding-top:10px !important;     */
+    width:200px !important;
+}
+.css-1sqnrkk-MuiInputBase-input-MuiOutlinedInput-input{
+    padding-left:7px !important;
+    padding-top: 5px !important;
+    font-size: small !important;
+}
+.text-party{
+   width:200px !important;
+   font-size: small !important;
+   padding-top: 0 !important;
+   /* height:15px !important; */
+}
+.h-color{
+    color:rgb(232, 52, 52) !important;
+    font-family: "Mulish", sans-serif !important;
+}
+.p-font{
+    font-family: "Mulish", sans-serif !important;
+}
+.record-add-btn{
+    color:White !important;
+    background-color: rgb(243, 86, 86) !important;
+    border-radius: 20px !important;
+    font-size: small !important;
+    text-transform:capitalize !important ;
+}
+.record-add-btn:hover{
+    color:black !important;
+    background-color: rgb(232, 143, 143) !important;
+    text-transform:capitalize !important ;
+}
+.record-add-btn-cancel{
+    color:rgb(232, 52, 52) !important;
+    background-color: rgb(236, 223, 223) !important;
+    border-radius: 20px !important;
+    border:none !important;
+    font-size: small !important;
+    text-transform:capitalize !important ;
+}
+.record-add-btn-cancel:hover{
+    background-color: rgb(236, 193, 193) !important;
+    border:1px solid red !important;
+    text-transform:capitalize !important;
+}

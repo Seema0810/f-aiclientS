@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap");
+.cell-design{
+   font-size: 0.65rem !important;
+   line-height: 0.5rem !important;
+   padding-block: 0.7em !important;
+    padding-inline:5px !important;; 
+   font-weight: bold !important;
+   width:5% !important;
+
+}
+.data-design{
+    font-size: 0.6rem !important;
+    line-height: 0.5rem !important;
+    padding-block: 0.7em !important;
+    padding-inline:5px !important; 
+    font-weight: lighter !important;
+}
+.table-design{
+    width:95% !important;
+}
+.verticle-hr{
+    border: none;
+    margin-left:48vw;
+    border-left: 1px solid #721818;
+    height: 100%;
+    width: 5px;
+    /* margin: 0 10px; */
+    transform: rotate(180deg);
+}
+/* //report styling  */
+.dateStyle{
+    font-size: smaller;
+    font-weight: bold;
+    padding: 2px 24px 2px 8px; 
+    border: none;
+    background-color: lightgrey;
+    outline: none;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none; /* Remove default arrow for WebKit browsers */
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); /* SVG for the filled arrow icon */
+    background-repeat: no-repeat;
+    background-position: right 0px center ; /* Adjust the position of the arrow */
+
+}
+.descStyle{
+    font-size: smaller;
+    font-weight: bold;
+}
+.report-data-design{
+    font-size: 0.7rem !important;
+    /* line-height: 0.5rem !important; */
+    /* padding-block: 0.7em !important; */
+    padding-inline:5px !important; 
+    font-weight: 600px !important;
+    font-family: "Nunito", sans-serif;
+}
+
+/* //report styling */
+.react-calendar {
+    width: 300px !important;
+    max-width: 100%;
+    background: white;
+    border: 1px solid #a0a096;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 0.7em !important;
+    
+}
+.react-calendar__navigation {
+    display: flex;
+    /* height: 44px; */
+    /* margin-bottom: 1em; */
+}
+.react-calendar__navigation button {
+    min-width: 44px;
+    background: none;
+    color:black !important;
+}
+.react-calendar__title {
+    padding: 7px 5.6667px !important;
+    font-size: 0.733em !important;
+ 
+}
+.date-design{
+    text-align: center !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.7rem !important;
+    font-weight: bold !important;
+}
+.invoice-font{
+    font-family: "Nunito", sans-serif !important;
+}
+.report-style{
+    text-align: center !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 2px 24px 2px 8px; 
+    border: none;
+    background-color: lightgrey;
+    outline: none;
+    appearance: none; /* Remove default arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none; 
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>'); 
+    background-repeat: no-repeat;
+    background-position: right 0px center ; 
+}
+.para-font{
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.7rem !important;
+}
+.report-amount{
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.8rem !important;
+}
+.heading-design{
+    /* text-align: center !important; */
+    font-family: "Nunito", sans-serif !important;
+    font-size: 1.3rem !important;
+    font-weight: bold !important;
+    color: rgb(23, 13, 13);
+}
+.range-design{
+    text-align: left !important;
+    font-family: "Nunito", sans-serif !important;
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
+    color: darkgray;
+    /* padding-top:4px; */
+}
